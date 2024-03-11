@@ -3,6 +3,7 @@
 *:after {
     list-style: none;
     box-sizing: border-box;
+    /* margin: 0rem; */
 }
 
 /* estandarizar tamaño letra */

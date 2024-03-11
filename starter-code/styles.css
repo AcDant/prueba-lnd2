@@ -21,6 +21,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 6rem;
 }
 
 h1{
@@ -28,6 +29,12 @@ h1{
     width: 80%;
     text-align: center;
     /* border: solid red 1px; */
+}
+
+span{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-underline-offset: 0.8rem;
 }
 
 .iconos-foto{
@@ -52,6 +59,7 @@ h1{
 .contactame{
     text-decoration: underline;
     text-decoration-color: greenyellow;
+    text-underline-offset: 2rem;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
@@ -73,10 +81,18 @@ h1{
 }
 
 .skill{
-    display: flex;
+    /* display: flex; */
+    margin: 0;
     flex-direction: column;
     justify-content: center;
-    border: solid rgb(0, 255, 98) 1px;
+    /* border: solid rgb(0, 255, 98) 1px; */
+}
+
+.skills .skill h2{
+    margin-bottom: 0rem;
+}
+.skills .skill p{
+    margin-top: 1rem;
 }
 
 .skill h2{
@@ -91,6 +107,7 @@ h1{
 
 .proyecto{
     margin-top: 1rem;
+    margin-bottom: 4rem;
 }
 
 .proyectos-cabeza{
@@ -128,13 +145,17 @@ h1{
     margin-left: 0.9rem;
 }
 
+.verpro{
+    margin-right: 5rem;
+}
+
 .imagen{
-    border: solid yellow 2px;
     height: 23rem;
     width: 100%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+    /* border: solid yellow 2px; */
     /* text-align: left; */
 }
 
@@ -158,14 +179,35 @@ h1{
 }
 
 @media (min-width: 750px){
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .iconos-foto{
         /* border: solid 2px red; */
-        /* width: 10rem; */
+        height: 80rem;
+        width: 50rem;
         position: absolute;
-        left: 100rem;
+        left: 80rem;
     }
     .hero{
+        width: 80%;
         align-items: start;
+        border: red solid 1px;
+    }
+
+    .hero h1{
+        text-align: left;
+        font-size: 8rem;
+        width: 70rem;
+        border: solid red 1px;
+    }
+
+    .contactame-top{
+        margin-bottom: 20rem;
     }
 
 }
