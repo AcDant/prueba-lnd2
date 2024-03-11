@@ -41,7 +41,7 @@ h1{
     background-repeat: no-repeat;
     height: 28rem;
     width: 16rem;
-    border: solid red 2px;
+    /* border: solid red 2px; */
 }
 
 
@@ -80,7 +80,7 @@ h1{
 }
 
 .skill h2{
-    font-size: 3rem;
+    font-size: 3.3rem;
     border: solid red 1px;
 }
 
@@ -96,7 +96,9 @@ h1{
 .proyectos-cabeza{
     display: flex;
     justify-content: space-between;
+    margin: 0rem 0.5rem;
     align-items: center;
+    
     border: solid red 1px;
 }
 
@@ -155,5 +157,15 @@ h1{
     background-image: url("./assets/images/thumbnail-project-6-large.webp");
 }
 
-@media ()
+@media (min-width: 750px){
+    .iconos-foto{
+        /* border: solid 2px red; */
+        /* width: 10rem; */
+        position: absolute;
+        left: 100rem;
+    }
+    .hero{
+        align-items: start;
+    }
 
+}
