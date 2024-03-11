@@ -53,6 +53,10 @@ h1{
     text-decoration: underline;
     text-decoration-color: greenyellow;
     font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.contactame a{
+    
 }
 
 .proyectos{
@@ -66,8 +70,6 @@ h1{
     align-items: center;
     border-top: white 1px solid;
     /* border-bottom: white 1px solid; */
-
-    /* margin: ; */
 }
 
 .skill{
@@ -83,8 +85,12 @@ h1{
 }
 
 .skill p{
-    margin-top: 0rem;
+    /* margin-top: 0rem; */
     border: solid red 1px;
+}
+
+.proyecto{
+    margin-top: 1rem;
 }
 
 .proyectos-cabeza{
@@ -98,9 +104,32 @@ h1{
     font-size: 3.5rem;
 }
 
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.proyectos h2{
+    font-size: 2.5rem;
+    /* text-align: left; */
+    border: solid 1px red;
+}
+
+.pareja-skills{
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px red;
+}
+
+.pareja-skills p{
+    margin-left: 0.9rem;
+}
+
 .imagen{
     border: solid yellow 2px;
     height: 23rem;
+    width: 100%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -125,4 +154,6 @@ h1{
 .imagen6{
     background-image: url("./assets/images/thumbnail-project-6-large.webp");
 }
+
+@media ()
 
