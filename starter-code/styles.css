@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration-color: greenyellow;
+}
+
+/* h2{
+    font-size: 2rem;
+} */
+
+p{
+    font-size: 1.9rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    width: 80%;
+    text-align: center;
+    border: solid red 1px;
+}
+
+.iconos-foto{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* justify-content: start; */
+    background-image: url("./assets/images/image-profile-desktop.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28rem;
+    width: 16rem;
+    border: solid red 2px;
+}
+
+
+.iconos-foto div img{
+    /* width: 4rem; */
+}
+
+.contactame{
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    font-size: 2.5rem;
+}
+
+.proyectos{
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: white 1px solid;
+    /* border-bottom: white 1px solid; */
+
+    /* margin: ; */
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid rgb(0, 255, 98) 1px;
+}
+
+.skill h2{
+    font-size: 3rem;
+    border: solid red 1px;
+}
+
+.skill p{
+    margin-top: 0rem;
+    border: solid red 1px;
+}
+
+.proyectos-cabeza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid red 1px;
+}
+
+.proyectos-cabeza h3{
+    font-size: 3.5rem;
+}
+
+.imagen{
+    border: solid yellow 2px;
+    height: 23rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* text-align: left; */
+}
+
+.imagen1{
+    background-image: url("./assets/images/thumbnail-project-1-large.webp");
+}
+.imagen2{
+    background-image: url("./assets/images/thumbnail-project-2-large.webp");
+}
+.imagen3{
+    background-image: url("./assets/images/thumbnail-project-3-large.webp");
+}
+.imagen4{
+    background-image: url("./assets/images/thumbnail-project-4-large.webp");
+}
+.imagen5{
+    background-image: url("./assets/images/thumbnail-project-5-large.webp");
+}
+.imagen6{
+    background-image: url("./assets/images/thumbnail-project-6-large.webp");
+}
+

@@ -1,0 +1,17 @@
+*,
+*:before,
+*:after {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* estandarizar tamaño letra */
+
+html{
+    font-size: 62.5%;
+}
+
+/* Quitar borde a boton
+
+border:none; */
+
