@@ -15,6 +15,7 @@ a{
 
 p{
     font-size: 1.9rem;
+    line-height: 3rem;
 }
 
 .hero{
@@ -22,6 +23,10 @@ p{
     flex-direction: column;
     align-items: center;
     margin-bottom: 6rem;
+}
+
+.name{
+   font-size: 2.3rem; 
 }
 
 h1{
@@ -49,6 +54,11 @@ span{
     height: 28rem;
     width: 16rem;
     /* border: solid red 2px; */
+}
+
+.icono img{
+    margin-top: 0.4rem;
+    width: 2rem;
 }
 
 
@@ -82,9 +92,9 @@ span{
 
 .skill{
     /* display: flex; */
-    margin: 0;
-    flex-direction: column;
-    justify-content: center;
+    /* margin: 0; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
     /* border: solid rgb(0, 255, 98) 1px; */
 }
 
@@ -187,27 +197,66 @@ span{
     }
 
     .iconos-foto{
+        justify-content: end;
         /* border: solid 2px red; */
-        height: 80rem;
-        width: 50rem;
+        height: 60rem;
+        width: 40rem;
         position: absolute;
-        left: 80rem;
+        left: 77rem;
+        z-index: -1;
     }
+
+    .icono img{
+        margin-top: 2.4rem;
+        margin-right: 2.3rem;
+        width: 2.7rem;
+    }
+
     .hero{
         width: 80%;
         align-items: start;
-        border: red solid 1px;
+        /* border: red solid 1px; */
+        border-bottom: white 1px solid;
     }
 
     .hero h1{
         text-align: left;
-        font-size: 8rem;
+        font-size: 9rem;
         width: 70rem;
         border: solid red 1px;
     }
 
+    .descripcion{
+        text-align: start;
+        width: 36rem;
+
+        border: red solid 1px;
+    }
+
     .contactame-top{
         margin-bottom: 20rem;
+    }
+
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        border: solid red 1px;
+    }
+
+    .skill{
+        width: 60%;
+        /* display: flex; */
+        /* flex-direction: column; */
+       /* align-items: start; */
+       text-align: left;
+       /* border: solid red 1px; */
+    }
+
+    .proyectos{
+        width: 80%;
+        border-top: none;
+        border: red solid 1px;
     }
 
 }
