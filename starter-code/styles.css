@@ -198,7 +198,7 @@ span{
     padding-top: 1rem;
     margin: 0rem;
     background-color: var(--grisFormulario);
-    border: red solid 1px;
+    /* border: red solid 1px; */
 }
 
 .footer-head h2{
@@ -216,7 +216,8 @@ span{
     flex-direction: column;
     align-items: center;
     padding-bottom: 10rem;
-    border: red solid 1px;
+    /* border: red solid 1px; */
+    /* border-bottom: 1px white solid; */
 }
 .formu input{
     background-color: var(--grisFormulario);
@@ -248,6 +249,20 @@ span{
     text-decoration: underline;
     text-decoration-color: greenyellow;
     text-underline-offset: 1rem;
+}
+
+.footer-pie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    /* border: solid 2px rgb(38, 194, 17); */
+}
+
+.iconos-footer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media (min-width: 750px){
@@ -285,13 +300,13 @@ span{
         text-align: left;
         font-size: 9rem;
         width: 70rem;
-        border: solid red 1px;
+        /* border: solid red 1px; */
     }
 
     .descripcion{
         text-align: start;
         width: 36rem;
-        border: red solid 1px;
+        /* border: red solid 1px; */
     }
 
     .contactame-top{
@@ -343,6 +358,51 @@ span{
 
     .verProCod{
         display: none;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-first{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /* border: rgb(124, 23, 219) solid 1px; */
+        /* border-bottom: white solid 1px; */
+    }
+
+    .footer-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 49%;
+    }
+    .footer-head p{
+        width: 60%;
+    }
+
+    .formu{
+        width: 49%;
+    }
+
+    .footer-pie{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+        border-top: white solid 1px;
+        /* border: tomato solid 1px; */
+    }
+
+    .name{
+        /* border: solid rgb(22, 145, 216) 1px; */
+    }
+
+    .iconos-footer{
+        /* border: solid orange 1px; */
+        width: 20rem;
     }
 
 }
