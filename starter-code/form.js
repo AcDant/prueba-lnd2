@@ -1,5 +1,4 @@
 const formulario = document.querySelector(".formu");
-// console.log(formulario)
 
 const datos = {
   nombre: "",
@@ -11,21 +10,20 @@ const nombre = document.querySelector("#nombre");
 const email = document.querySelector("#email");
 const mensaje = document.querySelector("#mensaje");
 
-console.log(nombre)
-console.log(email)
-console.log(mensaje)
+console.log(nombre);
+console.log(email);
+console.log(mensaje);
 
 nombre.addEventListener("input", leerTexto);
 email.addEventListener("input", leerTexto);
 mensaje.addEventListener("input", leerTexto);
 
-function leerTexto (e){
-    datos[e.target.id] = e.target.value;
-    console.log(e)
+function leerTexto(e) {
+  datos[e.target.id] = e.target.value;
+  console.log(e);
 }
 
-// formulario.addEventListener('submit', comprobarDatos());
-formulario.addEventListener("submit", function(e){
+formulario.addEventListener("submit", function (e) {
   e.preventDefault();
 
   const { nombre, email, mensaje } = datos;
@@ -34,7 +32,7 @@ formulario.addEventListener("submit", function(e){
     mensajeEnviar("Todos los campos son obligatorios", "error");
     return;
   }
-  mensajeEnviar("Mensaje enviado correctamente", 'ok')
+  mensajeEnviar("Mensaje enviado correctamente", "ok");
 });
 
 const mensajeEnviar = (mensaje, clase) => {

@@ -13,10 +13,6 @@ a{
     text-decoration-color: greenyellow;
 }
 
-/* h2{
-    font-size: 2rem;
-} */
-
 p{
     font-size: 1.9rem;
     line-height: 3rem;
@@ -37,7 +33,7 @@ h1{
     font-size: 3.5rem;
     width: 80%;
     text-align: center;
-    /* border: solid red 1px; */
+
 }
 
 span{
@@ -48,26 +44,18 @@ span{
 
 .iconos-foto{
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
-    /* justify-content: start; */
     background-image: url("./assets/images/image-profile-desktop.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 28rem;
     width: 16rem;
-    /* border: solid red 2px; */
 }
 
 .icono img{
     margin-top: 0.4rem;
     width: 2rem;
-}
-
-
-.iconos-foto div img{
-    /* width: 4rem; */
 }
 
 .contactame{
@@ -81,25 +69,11 @@ span{
     
 }
 
-.proyectos{
-    /* border-top: white 1px solid; */
-    /* border-bottom: white 1px solid; */
-}
-
 .skills{
     display: flex;
     flex-direction: column;
     align-items: center;
     border-top: white 1px solid;
-    /* border-bottom: white 1px solid; */
-}
-
-.skill{
-    /* display: flex; */
-    /* margin: 0; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* border: solid rgb(0, 255, 98) 1px; */
 }
 
 .skills .skill h2{
@@ -111,12 +85,6 @@ span{
 
 .skill h2{
     font-size: 3.3rem;
-    /* border: solid red 1px; */
-}
-
-.skill p{
-    /* margin-top: 0rem; */
-    /* border: solid red 1px; */
 }
 
 .proyecto{
@@ -130,8 +98,6 @@ span{
     margin: 0rem 0.5rem;
     align-items: center;
     border-top: solid 1px white;
-    
-    /* border: solid red 1px; */
 }
 
 .proyectos-cabeza h3{
@@ -146,14 +112,11 @@ span{
 
 .proyectos h2{
     font-size: 2.5rem;
-    /* text-align: left; */
-    /* border: solid 1px red; */
 }
 
 .pareja-skills{
     display: flex;
     justify-content: space-around;
-    /* border: solid 1px red; */
 }
 
 .pareja-skills p{
@@ -170,8 +133,6 @@ span{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    /* border: solid yellow 2px; */
-    /* text-align: left; */
 }
 
 .imagen1{
@@ -198,7 +159,6 @@ span{
     padding-top: 1rem;
     margin: 0rem;
     background-color: var(--grisFormulario);
-    /* border: red solid 1px; */
 }
 
 .footer-head h2{
@@ -206,7 +166,6 @@ span{
 }
 
 .footer-head p{
-    /* width: 93%; */
     margin: 0rem 2% 0rem 2%;
 }
 
@@ -216,8 +175,6 @@ span{
     flex-direction: column;
     align-items: center;
     padding-bottom: 10rem;
-    /* border: red solid 1px; */
-    /* border-bottom: 1px white solid; */
 }
 .formu input{
     background-color: var(--grisFormulario);
@@ -230,7 +187,6 @@ span{
 
 .formu .formu-mensaje{
     padding-bottom: 5rem;
-    /* padding-right: 20rem; */
 }
 
 .formu-boton{
@@ -238,7 +194,6 @@ span{
     text-align: right;
     margin-top: 2rem;
     margin-right: 2%;
-    /* border: solid red 1px; */
 }
 
 .formu-boton button{
@@ -256,7 +211,6 @@ span{
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
-    /* border: solid 2px rgb(38, 194, 17); */
 }
 
 .iconos-footer{
@@ -275,7 +229,6 @@ span{
 
     .iconos-foto{
         justify-content: end;
-        /* border: solid 2px red; */
         height: 60rem;
         width: 40rem;
         position: absolute;
@@ -292,25 +245,17 @@ span{
     .hero{
         width: 80%;
         align-items: start;
-        /* border: red solid 1px; */
-        /* border-bottom: white 1px solid; */
     }
 
     .hero h1{
         text-align: left;
         font-size: 9rem;
         width: 70rem;
-        /* border: solid red 1px; */
     }
 
     .descripcion{
         text-align: start;
         width: 36rem;
-        /* border: red solid 1px; */
-    }
-
-    .contactame-top{
-        /* margin-bottom: 10rem; */
     }
 
     .skills{
@@ -319,17 +264,12 @@ span{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         width: 80%;
-        /* border: solid red 1px; */
     }
 
     .skill{
         width: 60%;
-        /* display: flex; */
-        /* flex-direction: column; */
-       /* align-items: start; */
        text-align: left;
        border-top: none;
-       /* border: solid red 1px; */
     }
 
     .proyectos-cabeza{
@@ -345,11 +285,6 @@ span{
         grid-template-columns: repeat(2,1fr);
         width: 80%;
         border-top: none;
-        /* border: red solid 1px; */
-    }
-
-    .proyecto{
-        /* border: solid red; */
     }
 
     .imagen{
@@ -370,8 +305,6 @@ span{
         display: flex;
         flex-direction: row;
         width: 100%;
-        /* border: rgb(124, 23, 219) solid 1px; */
-        /* border-bottom: white solid 1px; */
     }
 
     .footer-head{
@@ -393,15 +326,9 @@ span{
         justify-content: space-between;
         width: 95%;
         border-top: white solid 1px;
-        /* border: tomato solid 1px; */
-    }
-
-    .name{
-        /* border: solid rgb(22, 145, 216) 1px; */
     }
 
     .iconos-footer{
-        /* border: solid orange 1px; */
         width: 20rem;
     }
 
